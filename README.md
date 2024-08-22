@@ -1,2 +1,2 @@
 # baselime-remix
-test baselime
+baselimeの動作確認
