@@ -40,7 +40,6 @@ export default async function handleRequest(
     namespace: `${request.method} ${url.hostname}${url.pathname}`,
     apiKey: loadContext.cloudflare.env.BASELIME_API_KEY,
     ctx: loadContext.cloudflare.ctx,
-    isLocalDev: loadContext.cloudflare.env.IS_LOCAL_MODE
   });
 
   // ログ書き込みテスト
