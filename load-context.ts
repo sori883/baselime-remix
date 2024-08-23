@@ -8,7 +8,6 @@ import { type PlatformProxy } from "wrangler";
 // eslint-disable-next-line @typescript-eslint/no-empty-interface
 interface Env {
   BASELIME_API_KEY: string;
-  IS_LOCAL_MODE: boolean;
 }
 
 type Cloudflare = Omit<PlatformProxy<Env>, "dispose">;
